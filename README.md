@@ -7,7 +7,7 @@ A landing page Portfolio that contain more details pertaining myself, my achieve
 * Git
 * Bootrap 5
 
-#Technology and Programming Languages used
+# Technology and Programming Languages used
 * HTML
 * CSS
 * Bootstrap 5
