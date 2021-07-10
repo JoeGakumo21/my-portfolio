@@ -181,7 +181,7 @@ color: #ff0163 !important;
 }
 .card i{
     font-size: 10rem;
-    margin-left: 10rem;
+    margin:auto;
     
 }.university p span{
     color: darkseagreen;
@@ -198,6 +198,7 @@ color: #ff0163 !important;
     overflow: hidden;
     width: 70%;
     margin:auto;
+    
 }
 #slider figure{
     position: relative;
@@ -240,3 +241,7 @@ color: #ff0163 !important;
         left: -400%;
     }
 }
+ .projects-sample a{
+     text-decoration: none;
+     color: black;
+ }
