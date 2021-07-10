@@ -2,14 +2,43 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+/* social media styling */
+#social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+
+}
+.icon-left{
+    display: flex;
+    flex-direction: row;
+}
+.icon-right{
+    display: flex;
+    float: right;
+}
+#social-media a i{
+    color:#fff;
+    opacity: 0.9;
+    font-size:3.5rem;
+    padding: 10px 30px;
+}
+#social-media a i:hover{
+    color: #ff0163;
+    transition: 01s ease-in-out;
+
+}
+/* end of social media */
 
 .social-icons{
     height: auto;
     width: 100%;
 }
 .social-icons .row, i{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: rgba(17, 16, 16, 0.9);
     padding: 0 2rem;
 }
@@ -27,3 +56,106 @@
       color: #E3456B;
       transition: 03s ease;
   }
+
+  
+  /* navbar styling */
+    #homenav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0.1rem;   
+          
+  }
+  #homenav .navbar{
+      display: flex;
+      background-color:rgb(146, 137, 137);
+      width: 100%;
+      height: 5.5rem;
+      position: sticky;
+      top: 20px;
+      
+  }
+  #homenav .navbar .brand{
+      float: left;
+      padding-top: -3px;
+  }
+  #homenav .navbar ul{
+      display: flex;
+  }
+  #homenav .navbar ul li{
+      display: flex;
+      padding: 0px 20px;
+      margin-left: 2.5rem;
+      font-family: 'Smythe', cursive !important;
+  }
+  #homenav  .navbar ul li a{
+    color: #fff;
+    font-size: 2rem;
+  }
+  #homenav a{
+      text-decoration: none;
+  }
+  #homenav .navbar ul li a:hover{
+      cursor: pointer;
+      color: #ff0163;
+      transition: 03s ease;
+  }
+  
+.brand{
+    margin-right: 30rem;
+} 
+
+
+/* image and paragraph  section */
+#image-home{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 0,0,0.8);
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Smythe', cursive;
+}
+#image-home::before{
+    content: '';
+    position: absolute;
+    background-image: url("assets/joekumsy1.jpg");
+    background-repeat: no-repeat;
+    background-size:49rem;
+    background-position-y: top;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 3;
+}
+#image-home .main h1 span{
+    color: #ff0163;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 40%;
+    right: 10%;
+}
+.heading{
+    font-family: 'Smythe', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background: grey;
+    border-color: bisque;
+    transition: 02s;
+    color: #fff;
+    box-shadow: 0 0 25px, 0 0 30px, 0 0 40px;
+}
+.card{
+    width: 50%;
+}
