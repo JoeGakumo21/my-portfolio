@@ -191,3 +191,52 @@ color: #ff0163 !important;
 .university p{
     font-size: 20px;
 }
+
+
+/* Projects styling */
+#slider{
+    overflow: hidden;
+    width: 70%;
+    margin:auto;
+}
+#slider figure{
+    position: relative;
+    width:500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+/* sliding effects using keyframe */
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
