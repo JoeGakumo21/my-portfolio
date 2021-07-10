@@ -159,6 +159,8 @@
 .card{
     width:31.5%;
     margin:1rem;
+    background-color: snow;
+
 }
 #about a{
 text-decoration: none;
@@ -181,4 +183,11 @@ color: #ff0163 !important;
     font-size: 10rem;
     margin-left: 10rem;
     
+}.university p span{
+    color: darkseagreen;
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.university p{
+    font-size: 20px;
 }
