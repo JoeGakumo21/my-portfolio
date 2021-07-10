@@ -14,26 +14,66 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- my css style -->
 <link rel="stylesheet" href="style.css">
+<!-- font-style link -->
 </head>
 <body>
 
 <!-- navigation bar with icons -->
-<div class="container-fluid social-icons bg-secondary">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-xs-12">
-            <span class="icon-left">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-            </span>
-            <span class="icon-right">
+<section id="social-media">
+            <div class="icon-left">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="class-right">
                 <a href="#"><i class="fas fa-mail-bulk"></i></a>
                 <a href="#"><i class="fas fa-mobile-alt"></i></a>
-            </span>
+            </div>
+</section>
+
+<!-- end -->
+<!--  main navbar-->
+
+<section id="homenav">
+    <nav class="navbar">
+        <ul>
+            <div class="brand">
+                <img src="assets/JoeDev kumsy.svg" alt="JoeKumsy Brand">
+            </div>      
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#social-media">Contacts</a></li>
+      </ul>
+    </nav>
+</section>
+<section id="image-home">
+    <div class="main">
+        <h1 class="heading">I' AM <br>  JOSEPH GAKUMO MUNYUI<br> <span>fullstack Web Dev</span><br> & Designer</h1>
+        <div class="header-button">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="btn btn-info btn-lg">Download Cv</button>
+                    </div>
+                </div>
         </div>
     </div>
-</div>
+</section>
 <!-- end -->
 
+<!-- About me section -->
+<section id="about">
+    <div class="row">
+        <div class="card">
+                <img src="assets/joekumsy1.jpg" alt="My Picture" class="card-img-top rounded">
+            <div class="card-body">
+                <h2 class="card-title text-center text-info">Joseph Gakumo Munyui</h2>
+                <p class="card-text"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of about me -->
 </body>
 </html>
