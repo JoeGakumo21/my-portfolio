@@ -471,3 +471,24 @@ color: #ff0163 !important;
         padding: 20px;
         }
     }
+    @media screen and (max-width:1000px){
+      
+        .card{
+            width: auto;
+        }
+       
+    }
+    @media screen and (max-width:900px){
+      
+        .card{
+            width: auto;
+        }
+       
+    }
+    @media screen and (max-width:1200px){
+      
+        .card{
+            width: auto;
+        }
+       
+    }
