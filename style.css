@@ -1,8 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-
+    box-sizing: border-box;    
 }
 /* social media styling */
 #social-media{
@@ -66,6 +65,7 @@
       position: sticky;
       top: 1px;   
       z-index: 3;
+      width: 100%;
       margin-top: 0;
           
   }
@@ -88,12 +88,12 @@
   #homenav .navbar ul li{
       display: flex;
       padding: 0px 20px;
-      margin-left: 2.5rem;
+      margin-left: .5rem;
       font-family: 'Smythe', cursive !important;
   }
   #homenav  .navbar ul li a{
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   #homenav a{
       text-decoration: none;
@@ -104,9 +104,6 @@
       transition: 03s ease;
   }
   
-.brand{
-    margin-right: 30rem;
-} 
 
 
 /* image and paragraph  section */
@@ -356,4 +353,68 @@ color: #ff0163 !important;
     .para{
         font-size:2.5rem;
         margin-top: 2rem;
+    }
+
+    /* responsiveness at media querry */
+    @media screen and (max-width:540px){
+        .class-right{
+            display: flex;
+        }
+        .navbar{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+        #homenav .navbar{
+            height: auto;
+        }
+        #homenav .navbar .brand {
+            margin: auto;
+        }
+        #homenav .navbar ul{
+            display: flex;
+            padding-left: 0px;
+        }
+        #homenav .navbar ul li{
+            margin-left: 0px;
+            display: flex;
+            padding: 10px;
+        }
+        .resp-card{
+            width: 100%;
+        }
+        .card{
+            margin: 0px;
+        }
+        .row{
+            display: flex;
+            margin-left: 0rem;
+        }
+        .row-education{
+            width: 100%;
+        }
+        .col-industry{
+            width: 100%;
+        }
+        .col-3{
+            width: 50%;
+            font-size: 20px;
+        }
+        .percent{
+            margin-left: 10rem;
+        }
+        .cont{
+            margin-top:2rem;
+            font-size: 1.5rem;
+        }
+        .para{
+            font-size: 1rem;
+        }
+        #social-media a i{
+        font-size: 3rem;
+        padding: 20px;
+        }
     }
