@@ -361,10 +361,6 @@ color: #ff0163 !important;
             display: flex;
         }
         .navbar{
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
             padding-top: .5rem;
             padding-bottom: .5rem;
         }
